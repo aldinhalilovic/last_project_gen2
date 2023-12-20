@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.loginContainer {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.centerLogin {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.l {
+  margin-bottom: 10px;
+  padding-left: 3px;
+  padding-bottom: 10px;
+  position: relative;
+  bottom: 3px;
+}
+.mid {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+input {
+  width: 95%;
+  border-radius: 10px;
+  border: none;
+  padding-left: 10px;
+  height: 40px;
+  font-size: 18px;
+  border: 1.5px solid #e0e0e0;
+}
+
+::placeholder {
+  font-size: 15px;
+}
+
+.check {
+  width: 20px;
+  height: 20px;
+}
+
+.row {
+  width: 95%;
+  height: 30px;
+  display: flex;
+  gap: 5px;
+  padding: 4px;
+}
+
+.btn {
+  width: 95%;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(0, 126, 0);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.inp {
+  width: 100%;
+}
+.div1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  width: 95%;
+}
+.lines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  width: 95%;
+}
+.line {
+  height: 2.5px;
+  width: 300px;
+  background-color: rgb(212, 205, 205);
+}
+h6 {
+  font-weight: 400;
+}
+.GA {
+  display: flex;
+  width: 95%;
+  height: 100px;
+  align-items: end;
+  gap: 20px;
+}
+.apple {
+  width: 46%;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1.5px solid #e0e0e0;
+}
+
+img {
+  height: 100%;
+  mix-blend-mode: color-burn;
+}
+.noACC {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  width: 95%;
+  padding-right: 30px;
+}
+h4 {
+  font-weight: 400;
+}
+.appleImg {
+  height: 80%;
+}

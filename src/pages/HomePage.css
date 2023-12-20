@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+}
+.main-cont {
+  background-image: url("./forest.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.nav-cont {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  gap: 30%;
+  align-items: center;
+  padding-top: 1rem;
+}
+.nav-cont h1 {
+  color: white;
+  font-family: "Allerta Stencil";
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.content-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 88%;
+}
+.content {
+  width: 70%;
+  height: 80%;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  background-image: url("./forest.png");
+  filter: blur(100px);
+  background-position: center;
+  /* background-size: fit; */
+  /* background-color: transparent; */
+}
+.text {
+  width: 100%;
+  height: 100%;
+  /* background-color: green; */
+  color: black;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+  /* overflow: hidden; */
+}
+#h1 {
+  /* color: transparent; */
+  color: white;
+  text-transform: uppercase;
+  font-family: "Allerta Stencil";
+  font-size: 4rem;
+  letter-spacing: 1rem;
+  transform: translateY(-50px);
+}
+#p {
+  color: white;
+  font-size: 1.3rem;
+  font-family: "Allerta Stencil";
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  width: 70rem;
+  text-align: center;
+  line-height: 25px;
+}
+@media screen and (max-width: 768px) {
+  .nav-cont {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .nav-cont h1 {
+    margin-bottom: 1rem;
+  }
+
+  .content {
+    width: 100%;
+    left: 0;
+  }
+
+  #h1 {
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    transform: translateY(0);
+  }
+
+  #p {
+    width: 100%;
+  }
+}

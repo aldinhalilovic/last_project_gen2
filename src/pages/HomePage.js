@@ -13,8 +13,8 @@ function HomePage() {
         <div className="content"></div>
       </div>
       <div className="text">
-        <h1 id="h1">Save our forest</h1>
-        <p id="p">
+        <h1>Save our forest</h1>
+        <p>
           Committed to preserving nature, we safeguard forests as precious
           resources for a sustainable future, providing the care they need.
         </p>
